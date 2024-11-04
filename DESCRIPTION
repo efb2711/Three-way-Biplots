@@ -1,0 +1,15 @@
+Package: MultiwayMultiblockBiplot
+Type: Package
+Title: Joint biplot, interactive biplot and triplot for three-way data and
+  coupled data analysis
+Version: 0.1.0
+Depends: R (>= 3.5.0), ThreeWay, MultBiplotR,rTensor
+Author: Elisa Frutos Bernal
+Maintainer: Elisa Frutos Bernal <efb@usal.es>
+Description: Allows the generation of joint biplots and interactive biplots to 
+  visualize the results of the PARAFAC and Tucker models. It also allows you
+  to generate biplots from the results of the coupled data analysis.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
