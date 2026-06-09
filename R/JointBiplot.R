@@ -82,7 +82,7 @@ JointBiplot <- function(A, B, C, G = NULL, fixmode, fixunit,
       Amat = A
       Cmat = C
     } else {
-      GG = permnew(K, r1, r2, r3)
+      GG = permnew(G, r1, r2, r3)
       Gmat = matrix(t(GG[fixunit, ]), r3, r1)
       Smat = C %*% Gmat %*% t(A)
       SVD = svd(Smat)
@@ -110,7 +110,7 @@ JointBiplot <- function(A, B, C, G = NULL, fixmode, fixunit,
       Bmat = B
     } else {
       GG = permnew(G, r1, r2, r3)
-      GG = permnew(G, r2, r3, r1)
+      GG = permnew(GG, r2, r3, r1)
       Gmat = matrix(t(GG[fixunit, ]), r1, r2)
       Smat = A %*% Gmat %*% t(B)
       SVD = svd(Smat)

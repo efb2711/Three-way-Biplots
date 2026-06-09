@@ -45,7 +45,7 @@ Triplot <- function(X,Y3D, G = NULL, A, B1, C, B2,
   # Pinta el biplot interactivo
   BiplotY <- InteractiveBiplot(Y3D=Y3D,A=A,B=B1,C=C,G=G,namesA = namesA,
                                namesBC=namesBC)
-
+  if (is.null(namesB2)) namesB2 = paste("Cov", 1:L, sep="")
   # Construcción del biplot para X (separado)
   I = nrow(A)
   L = nrow(B2)

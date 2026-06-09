@@ -3,3 +3,4 @@
 export(InteractiveBiplot)
 export(JointBiplot)
 export(Triplot)
+importFrom(rTensor,khatri_rao)

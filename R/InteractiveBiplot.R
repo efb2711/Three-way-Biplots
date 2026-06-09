@@ -29,6 +29,7 @@
 #' vector_colores <- rep(colores, 7)
 #' plot(Biplot,ColorVar = vector_colores,mode="ah",ColorInd = "black")
 #'
+#' @importFrom rTensor khatri_rao
 #' @export
 #'
 InteractiveBiplot <- function(Y3D, A, B, C, G = NULL,
