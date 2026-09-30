@@ -6,17 +6,17 @@
 \usage{data(X2way)}
 \format{
 Dispositions are the following:
-    \cr{Fear to be refused}
-    \cr{Kindness}
-    \cr{Importance of others' judgments}
-    \cr{Altruism}
-    \cr{Neuroticism}
-    \cr{Opennes}
-    \cr{Being strict to oneself}
-    \cr{Low selfesteem}
-    \cr{Conscientiousness}
-    \cr{Depression}
-  }
+    \cr Fear to be refused
+    \cr Kindness
+    \cr Importance of others' judgments
+    \cr Altruism
+    \cr Neuroticism
+    \cr Opennes
+    \cr Being strict to oneself
+    \cr Low selfesteem
+    \cr Conscientiousness
+    \cr Depression
+}
 \examples{
 data(X2way)
 str(X2way)

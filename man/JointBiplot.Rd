@@ -49,6 +49,10 @@ its Tucker3 or PARAFAC decomposition.
 \examples{
 # Example of function usage:
 data(ResultsTucker3)
+A <- ResultsTucker3$A
+B <- ResultsTucker3$B
+C <- ResultsTucker3$C
+G <- ResultsTucker3$G
 namesA = c("i1","i2","i3","i4","i5","i6","i7","i8")
 namesB = c("Other anger","Shame","Love","Sorrow","Fear","Guilt",
 "Self(anger)")#'

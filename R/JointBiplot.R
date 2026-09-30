@@ -22,6 +22,10 @@
 #' @examples
 #' # Example of function usage:
 #' data(ResultsTucker3)
+#' A <- ResultsTucker3$A
+#' B <- ResultsTucker3$B
+#' C <- ResultsTucker3$C
+#' G <- ResultsTucker3$G
 #' namesA = c("i1","i2","i3","i4","i5","i6","i7","i8")
 #' namesB = c("Other anger","Shame","Love","Sorrow","Fear","Guilt",
 #' "Self(anger)")#'
@@ -35,6 +39,7 @@
 #' vector_colores <- rep(colores, 7)
 #' plot(Biplot,ColorVar = vector_colores,mode="ah",ColorInd = "black")
 #'
+#' @importFrom ThreeWay permnew
 #' @export
 JointBiplot <- function(A, B, C, G = NULL, fixmode, fixunit,
                          namesA=NULL, namesB=NULL, namesC=NULL)

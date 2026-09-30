@@ -25,7 +25,11 @@
 #' Y3D <- X3way
 #' data(X2way)
 #' X <- X2way
-#' data(ResultsTucker3)
+#' data(ResultsLMPCA)
+#' A <- ResultsLMPCA$A
+#' B1 <- ResultsLMPCA$B1
+#' B2 <- ResultsLMPCA$B2
+#' C <- ResultsLMPCA$C
 #' namesA = c("i1","i2","i3","i4","i5","i6","i7","i8")
 #' namesB2 = c("Fear to be refused","Kindness",
 #' "Importance of others’ judgments","Altruism","Neuroticism","Openness",

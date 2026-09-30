@@ -3,4 +3,11 @@
 export(InteractiveBiplot)
 export(JointBiplot)
 export(Triplot)
+import(MultBiplotR)
+importFrom(ThreeWay,permnew)
 importFrom(rTensor,khatri_rao)
+importFrom(stats,
+  median,
+  quantile,
+  sd
+)

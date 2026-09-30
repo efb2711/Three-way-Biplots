@@ -22,6 +22,10 @@
 #' data(X3way)
 #' Y3D <- X3way
 #' data(ResultsTucker3)
+#' A <- ResultsTucker3$A
+#' B <- ResultsTucker3$B
+#' C <- ResultsTucker3$C
+#' G <- ResultsTucker3$G
 #' namesA = c("i1","i2","i3","i4","i5","i6","i7","i8")
 #' Biplot <- InteractiveBiplot(Y3D = Y3D, A = A, B = B, C = C, G = G,
 #' namesA = namesA)
@@ -29,7 +33,9 @@
 #' vector_colores <- rep(colores, 7)
 #' plot(Biplot,ColorVar = vector_colores,mode="ah",ColorInd = "black")
 #'
+#' @import MultBiplotR
 #' @importFrom rTensor khatri_rao
+#' @importFrom stats median quantile sd
 #' @export
 #'
 InteractiveBiplot <- function(Y3D, A, B, C, G = NULL,

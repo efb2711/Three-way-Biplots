@@ -37,6 +37,10 @@ its Tucker3 or PARAFAC decomposition.
 data(X3way)
 Y3D <- X3way
 data(ResultsTucker3)
+A <- ResultsTucker3$A
+B <- ResultsTucker3$B
+C <- ResultsTucker3$C
+G <- ResultsTucker3$G
 namesA = c("i1","i2","i3","i4","i5","i6","i7","i8")
 Biplot <- InteractiveBiplot(Y3D = Y3D, A = A, B = B, C = C, G = G,
 namesA = namesA)
